@@ -93,7 +93,7 @@ const Home = () => {
                 <img src={image3} alt="Project image" className="w-full object-cover" />
               </div>
               <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2">Palmpay cloned</h3>
+                <h3 className="text-xl font-semibold mb-2">Palmpay</h3>
                 <p className="text-gray-600 text-sm mb-4">I created a PalmPay website, replicating its intuitive UI/UX and core payment functionalities, delivering a secure, scalable, and user-centric fintech solution tailored for seamless digital transactions.</p>
                 <p className="text-sm text-gray-500 mb-4">Tech stack : HTML, JavaScript, TailwindCSS, React, State Management</p>
                 <div className="flex space-x-4">
@@ -115,7 +115,7 @@ const Home = () => {
                 <img src={image2} alt="Project image" className="w-full object-cover" />
               </div>
               <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2">Project Title goes here</h3>
+                <h3 className="text-xl font-semibold mb-2">FlutterWave</h3>
                 <p className="text-gray-600 text-sm mb-4">I built a flutterwave project as a hands-on Tailwind CSS practice project, crafting a responsive, modern UI with streamlined styling to enhance my front-end development skills.</p>
                 <p className="text-sm text-gray-500 mb-4">Tech stack : HTML, JavaScript, SASS, React</p>
                 <div className="flex space-x-4">
