@@ -1,6 +1,6 @@
 import React from 'react'
 import profilePic from "../Home/profile.jpeg"
-import CV from "../Home/sulaimon-cv.pdf"
+import CV from "../Home/sulaimon.pdf"
 import { Link } from 'react-router-dom'
 import boot from "../Home/boot.svg"
 import css from "../Home/css.svg"
@@ -8,14 +8,14 @@ import git from "../Home/git.svg"
 import js from "../Home/js.svg"
 import html from "../Home/html.svg"
 import github from "../Home/github.svg"
-import logo from "../Home/LOGO.svg"
+
 import image1 from "../../Components/Project/huddle.png"
 import image2 from "../../Components/Project/flutter.png"
 import image3 from "../../Components/Project/palmpay.png"
-import image4 from "../../Components/Project/music.jpeg"
+
 import image5 from "../../Components/Project/todo.jpeg"
 import image6 from "../../Components/Home/api.jpeg"
-import Project from '../Project/Project'
+
 import Footer from '../Footer'
 
 const Home = () => {
@@ -27,9 +27,9 @@ const Home = () => {
           <h1>My name is <br/><span className="text-blue-700">OLAITAN</span></h1>
           <p className="text-2xl md:text-3xl">I am a frontend Developer</p>
           <div className="mt-8 text-xl md:text-2xl flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
-            <a href={CV} download className="bg-red-500 p-2 rounded-lg text-center">
-              Download CV
-            </a>
+          <a href={CV} download="Olaitan-CV.pdf" className="bg-red-500 p-2 rounded-lg text-center">
+  Download CV
+</a>
             <Link to="/Contact" className="bg-blue-500 p-2 rounded-lg text-center">
               Contact Me
             </Link>
@@ -79,7 +79,7 @@ const Home = () => {
                     <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/><path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/></svg>
                     Live Preview
                   </a>
-                  <a href="#" className="text-gray-500 hover:text-gray-600 flex items-center">
+                  <a href="https://github.com/Sulaimonyusuf123/Huddle-landing-page" className="text-gray-500 hover:text-gray-600 flex items-center">
                     <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"/></svg>
                     View Code
                   </a>
@@ -101,7 +101,7 @@ const Home = () => {
                     <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/><path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/></svg>
                     Live Preview
                   </a>
-                  <a href="#" className="text-gray-500 hover:text-gray-600 flex items-center">
+                  <a href="https://github.com/Sulaimonyusuf123/Palmpay" className="text-gray-500 hover:text-gray-600 flex items-center">
                     <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"/></svg>
                     View Code
                   </a>
@@ -123,7 +123,7 @@ const Home = () => {
                     <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/><path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/></svg>
                     Live Preview
                   </a>
-                  <a href="#" className="text-gray-500 hover:text-gray-600 flex items-center">
+                  <a href="https://github.com/Sulaimonyusuf123/Flutterwave" className="text-gray-500 hover:text-gray-600 flex items-center">
                     <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"/></svg>
                     View Code
                   </a>
@@ -151,7 +151,7 @@ const Home = () => {
                     <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/><path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/></svg>
                     Live Preview
                   </a>
-                  <a href="#" className="text-gray-500 hover:text-gray-600 flex items-center">
+                  <a href="https://github.com/Sulaimonyusuf123/API-test" className="text-gray-500 hover:text-gray-600 flex items-center">
                     <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"/></svg>
                     View Code
                   </a>
@@ -173,7 +173,7 @@ const Home = () => {
                     <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/><path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/></svg>
                     Live Preview
                   </a>
-                  <a href="#" className="text-gray-500 hover:text-gray-600 flex items-center">
+                  <a href="https://github.com/Sulaimonyusuf123/music-app" className="text-gray-500 hover:text-gray-600 flex items-center">
                     <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"/></svg>
                     View Code
                   </a>
@@ -195,7 +195,7 @@ const Home = () => {
                     <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/><path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/></svg>
                     Live Preview
                   </a>
-                  <a href="#" className="text-gray-500 hover:text-gray-600 flex items-center">
+                  <a href="https://github.com/Sulaimonyusuf123/To-Do-list" className="text-gray-500 hover:text-gray-600 flex items-center">
                     <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd"/></svg>
                     View Code
                   </a>

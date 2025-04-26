@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from "../Home/LOGO.svg"
+import logo from "../../Components/Home/myLogo.svg"
 import profilePic from "../Home/profile.jpeg"
-import CV from "../Home/sulaimon-cv.pdf"
+
 import html from "../Home/html.svg"
 import css from "../Home/css.svg"
 import js from "../Home/js.svg"
@@ -18,7 +18,7 @@ const About = () => {
   const yearsOfExperience = currentYear - startYear
 
   return (
-    <div className="container mx-auto px-4 pb-12">
+    <div className="container mx-auto px-4 pb-12 md:mt-36   mt-12 ">
       {/* Header */}
       <div className="md:mt-24 mt-16 text-center">
         <h1 className="text-4xl md:text-5xl font-bold">About Me</h1>
@@ -50,9 +50,9 @@ const About = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-            <a href={CV} download className="bg-red-500 hover:bg-red-600 text-white py-2 px-6 rounded-lg text-center transition">
-              Download CV
-            </a>
+          <a href="/cv.pdf" download="Olaitan-CV.pdf" className="bg-red-500 hover:bg-red-600 text-white py-2 px-6 rounded-lg text-center transition">
+  Download CV
+</a>
             <Link to="/Contact" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-6 rounded-lg text-center transition">
               Contact Me
             </Link>

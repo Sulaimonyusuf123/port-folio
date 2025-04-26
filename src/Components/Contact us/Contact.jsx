@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo from "../Home/LOGO.svg"
+import logo from "../../Components/Home/myLogo.svg"
 import { Link } from 'react-router-dom'
 
 const Contact = () => {
@@ -43,7 +43,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="container mx-auto px-4 pb-12">
+    <div className="container mx-auto px-4 pb-12 md:mt-36 mt-12">
       {/* Header */}
       <div className="md:mt-24 mt-16 text-center">
         <h1 className="text-4xl md:text-5xl font-bold">Contact Me</h1>

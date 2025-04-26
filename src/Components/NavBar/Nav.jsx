@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../Home/LOGO.svg";
+import logo from "../../Components/Home/myLogo.svg";
 
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);

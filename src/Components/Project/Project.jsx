@@ -8,7 +8,7 @@ import image5 from "../../Components/Project/todo.jpeg"
 
 const Project = () => {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen md:mt-24 mt-12">
       <main className="flex-grow">
         {/* First row of projects */}
         <div className="container mx-auto px-4 py-8">
